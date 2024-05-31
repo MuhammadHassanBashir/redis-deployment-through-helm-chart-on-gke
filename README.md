@@ -48,11 +48,11 @@ Telnet to the load balancer IP address:
 
 Ping Redis using redis-cli:
 
-**redis-cli -h loadbalacer-ipaddress -p 6379 -a <redis password> ping**
+**redis-cli -h loadbalacer-ipaddress -p 6379 -a redis password ping**
 
 Send a request to the Redis server:
 
-**curl http://<loadbalacer-ipaddress>:<port>**
+**curl http://loadbalacer-ipaddress:port**
 
 You should receive an empty response, indicating that the Redis server is accessible.
 
