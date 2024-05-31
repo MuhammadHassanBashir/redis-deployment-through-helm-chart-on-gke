@@ -44,11 +44,11 @@ After exposing the Redis service, verify the connection using the following comm
 
 Telnet to the load balancer IP address:
 
-**telnet <loadbalacer-ipaddress> 6379**
+**telnet loadbalacer-ipaddress 6379**
 
 Ping Redis using redis-cli:
 
-**redis-cli -h <loadbalacer-ipaddress> -p 6379 -a <redis password> ping**
+**redis-cli -h loadbalacer-ipaddress -p 6379 -a <redis password> ping**
 
 Send a request to the Redis server:
 
