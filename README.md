@@ -29,7 +29,7 @@ This command upgrades or installs the Redis Helm Chart with the provided configu
 
 To make Redis accessible externally, edit the Redis service:
 
-**ubectl edit service/redis-master**
+**kubectl edit service/redis-master**
 
 Add the following annotation to specify the load balancer type:
 
